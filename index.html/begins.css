@@ -14,7 +14,7 @@ nav{
     margin: 50px 200px;
 }
 .btn-1{
-    /*background-color: rgba(0, 0, 0, 1);*/
+    background-color: white;
     /*font-weight: bold;*/
     font-size: fixed;
     color: black;
@@ -24,17 +24,60 @@ nav{
 nav ul li{
     list-style: none;
 }
-.banar-tittle{
+.header{
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    margin-top: 131px;
+}
+.banar{
     display: flex;
     flex-direction: column;
-    margin: 200px;
-    padding: 20px 100px;
+    width: 998px;
+    height: 581px;
+    margin: 157px 221px 0 221px;
+    justify-content: center;
+    align-items: center;
 }
-.banar-pic{
-    size: 200px;
-    width: none;
+.banar-profile-pic{
+    display: inline;
+    size: none;
 }
-.banar-sub-tittle{
+.btn-2{
+    padding: 24px 24px;
+    border-radius: 5px;
+    width: 196px;
+    height: 23px;
+    color: white;
+    background-color: black;
+}
+.banar-title{
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
+.banar-sub-title{
+    width: 998px;
+    height: 136px;
+}
+.text{
+    width: 946px;
+    height: 1233px;
+    padding: 80px 97px 0 97px;
+}
+.text-aling{
+    justify-content: center;
+}
+.list ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    height: 240px;
+    padding: 48px;
+    margin: 32px 97px 0 97px;
+}
+.btn{
+  width: 171px;
+  height: 47px;
+}
+
