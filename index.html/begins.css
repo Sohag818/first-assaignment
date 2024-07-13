@@ -159,6 +159,16 @@ nav ul li{
     height: 57px;
     border-radius: 5px;
 }
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+}
+.t-3{
+    margin-right: 200px;
+}
+.t-2{
+    margin-left: 300px;
+}
 
 
 
