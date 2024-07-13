@@ -26,46 +26,32 @@ nav ul li{
 }
 .header{
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
-    width: 1440px;
-    height: 652px;
-    margin-top: 131px;
+    margin-top: 0PX 131px;
+    justify-content: center;
 }
 .banar{
     display: flex;
     flex-direction: column;
-    width: 998px;
-    height: 581px;
-    margin: 157px 221px 0 221px;
+    width: 1440px;
+    height: 652px;
     justify-content: center;
     align-items: center;
-}
-.banar-profile-pic{
-    display: inline;
-    size: none;
+    margin-left: 100px;
 }
 .btn-2{
-    padding: 24px 24px;
+    padding:20px 20px ;
     border-radius: 5px;
-    width: 196px;
-    height: 23px;
-    color: white;
+    width: 244px;
+    height: 50px;
+    color:#FFFFFF;
     background-color: black;
 }
-.banar-title{
-    display: flex;
-    align-items: center;
-}
-.banar-sub-title{
-    width: 998px;
-    height: 136px;
-}
-.text{
-    width: 946px;
-    height: 1233px;
-    padding: 80px 97px 0 97px;
-}
 .text-aling{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-left: 200px;
 }
 .list ul li{
     display: flex;
@@ -80,4 +66,101 @@ nav ul li{
   width: 171px;
   height: 47px;
 }
+.list-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banar-description{
+    width: 852px;
+    height: 52px;
+}
+.list-2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.div3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.banar-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    margin-left: 150px;
+    padding: 200px 100px 0px 100px;
+}
+.text{
+    margin-right: 200px;
+}
+.video{
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.bg-2{
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
+    border-radius: 15px;
+    margin-bottom: 150px;
+    margin-left: 310px;
+}
+.item-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.int{
+    width: 548px;
+    height: 57px;
+    align-items: center;
+    border-radius: 5px;
+}
+.int-2{
+    width: 120px;
+    height: 57px;
+    border-radius: 5px;
+}
+
+
+
+
 
